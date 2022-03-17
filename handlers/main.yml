@@ -20,6 +20,11 @@
     name: dhcpd
     state: restarted
 
+- name: restart dhcpd6
+  service:
+    name: dhcpd6
+    state: restarted
+
 - name: restart tftp
   service:
     name: tftp
